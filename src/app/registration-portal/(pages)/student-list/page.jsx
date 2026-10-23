@@ -5,7 +5,7 @@ import AddStudentDialog from "@/components/portalComponents/AddStudentDialog";
 import Link from "next/link";
 import React from "react";
 import { FaUsers } from "react-icons/fa";
-
+export const dynamic = "force-dynamic";
 
 const StudentList = async () => {
   const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/students`);

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaUsers, FaBookOpen } from "react-icons/fa";
-
+export const dynamic = "force-dynamic";
 
 const RegistrationPortal = async () => {
   const studentRes = await fetch(`${process.env.NEXT_PUBLIC_URL}/students`);

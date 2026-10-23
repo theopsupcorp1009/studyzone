@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaBookOpen, FaClock, FaGraduationCap, FaArrowLeft } from "react-icons/fa";
-
+export const dynamic = "force-dynamic";
 
 const SubjectDetailsPage = async ({ params }) => {
   const { subjectId } = await params;

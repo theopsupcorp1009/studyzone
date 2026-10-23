@@ -6,6 +6,7 @@ import Link from 'next/link';
 import TotalCountCard from '@/components/portalComponents/TotalCountCard';
 import UpdateSubjectInfo from '@/components/portalComponents/UpdateSubjectInfo';
 import RemoveSubject from '@/components/portalComponents/RemoveSubjects';
+export const dynamic = "force-dynamic";
 
 const SubjectPage = async () => {
   const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/subjects`);

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+export const dynamic = "force-dynamic";
 
 const StudentDetailsPage = async ({ params }) => {
   const { studentId } = await params;
