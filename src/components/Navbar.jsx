@@ -14,7 +14,7 @@ const Navbar = () => {
             <p className="font-bold">
               Study<span className="text-blue-500">Zone</span>
             </p>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-gray-500 text-[10px] md:text-[12px] lg:text-[12px]">
               IT & Education Management
             </p>
           </div>
