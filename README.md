@@ -211,3 +211,5 @@ This project is open source.
 ## 📝 Project Summary
 
 **StudyZone** is a full-stack student registration and management system split into two projects: a Next.js frontend and an Express and MongoDB backend. The frontend uses the App Router with React 19 and the React Compiler to deliver a responsive admin portal with a stats dashboard, student and subject management dialogs, and detailed record pages, styled with Tailwind CSS, daisyUI, and shadcn/ui. Data is fetched server-side from the REST API for always-fresh pages, while client-side validation and toast notifications give users instant feedback before the server applies its own validation and duplicate checks. The project demonstrates practical experience with full-stack architecture, CRUD workflows, dynamic routing, component-driven UI design, and deploying separate frontend and backend services on Vercel and Render.
+
+# 🗒️ NOTE: THIS PROJECT IS INITIALLY AN PORTION OF PROTOTYPE FOR A POTENTIAL WEB APPLICATION
